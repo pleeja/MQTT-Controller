@@ -27,12 +27,13 @@ Connect the wires according to the following diagram:
 ## Step 5
 Put all the parts in a case and give the controler a place.
 
-
 ## Step 6
+The controller wil not act as an entity in Home Asisstant but will listen to an MQTT topic to change it's position and will publish to a different topic to send it position.
+
+Add the automations in the automations.yaml file in this repo to your Home Assistant automations.yaml file for every device you want to control.
 
 
-
-Parts list:
+## Parts list:
 
 | Part | Description | Price | Link |
 |------|-------------|-------|------|
